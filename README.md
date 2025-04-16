@@ -27,6 +27,8 @@ F2 = xy’z + x’y’z + w’xy + wx’y + wxy
 Similar simplification can be done for this function to reduce the gate count.
 The resulting minimized expressions are implemented using Verilog HDL and simulated on the Quartus Prime tool. The outputs can then be verified on an FPGA board (e.g., Cyclone II).
 
+
+
 **Truth Table**
 
 F1 = A’B’C’D’ + AC’D’ + B’CD’ + A’BCD + BC’D:
@@ -79,9 +81,11 @@ module kishore(a,b,c,d,w,x,y,z,f1,f2);
   endmodule 
 ```
 
+
 **RTL realization Output:**
 
 ![Screenshot 2025-04-16 084828](https://github.com/user-attachments/assets/c169332a-8a88-4787-abf6-2fab98cbdf2b)
+
 
 **Timing Diagram**
 
