@@ -56,8 +56,6 @@ F2 = xy’z + x’y’z + w’xy + wx’y + wxy:
 Developed by: KISHORE.S
 RegisterNumber: 212224230130
 */
-```
-```python
 module kishore(a,b,c,d,w,x,y,z,f1,f2);
   input a,b,c,d,w,x,y,z;
   output f1,f2;
