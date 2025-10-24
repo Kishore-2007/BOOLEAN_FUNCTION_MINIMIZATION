@@ -1,4 +1,7 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+### Name : Kishore.S
+### Register Number : 212224230130
+### Experiment 2 : Boolean Function Minimization
+
 
 **AIM:**
 
